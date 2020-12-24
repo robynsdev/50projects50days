@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: rgb(30, 166, 211);
   font-family: "Muli", sans-serif;
   display: flex;
   /* flex-direction: column; */
