@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <script src="script.js" defer></script>
+    <title>Catch the thing!</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch the Thing!</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Choose your thing.</h1>
+      <ul class="list">
+        <li>
+          <button class="choose-btn">
+            <p>Elephant</p>
+            <img src="https://images.freeimages.com/images/large-previews/ab4/elephant-1477059.jpg" alt="elephant">
+          </button>
+        </li>
+        <li>
+          <button class="choose-btn">
+            <p>Chicken</p>
+            <img src="https://images.freeimages.com/images/large-previews/a8c/cow-1571234.jpg" alt="cow">
+          </button>
+        </li>
+        <li>
+          <button class="choose-btn">
+            <p>Fish</p>
+            <img src="https://images.freeimages.com/images/large-previews/309/fish-2-1364719.jpg" alt="fish">
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container">
+      <h3 id="time">Time: </h3>
+      <h3 id="score">Score: </h3>
+      <h5 id="message">Annoyed? You're playing an impossible game. ;)</h5>
+    </div>
+  </body>
+</html>
